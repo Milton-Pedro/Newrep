@@ -1,0 +1,64 @@
+<html>
+  <head>
+ 
+   <style>
+   
+   
+   .luanda{
+       background-color: rgba(200,0,0,.7);
+       text-align: center;
+       width:40%;
+       display: inline-block;
+       height:45%;
+       position: relative;
+       background-image: url("aula.png");
+       background-position:center;
+       background-size: contain;
+       background-repeat: no-repeat;
+     }
+     #anselmo{
+       margin-right: 15px;
+       border:10px solid black ;
+     }
+     #mario{
+border:10px solid black ;
+     }
+     
+     .container{
+       text-align: center;
+       margin-bottom: 10px;
+     }
+     
+     img{
+       margin-top:30px;
+       width:15px;
+     }
+     
+     
+      </style>
+  
+  </head>
+  <body>
+    <div class="container">
+    <div class="luanda" id="anselmo">
+      
+      Eu sou Anselmo
+      </div>
+      
+      <div class="luanda" id="mario">
+        Eu sou o Mário
+      </div>
+      </div>
+      
+  <div class="container">
+    <div class="luanda" id="anselmo">
+      
+      Eu sou o Milton
+      </div>
+      
+      <div class="luanda" id="mario">
+        Eu sou o Joe
+      </div>
+      </div>
+   </body>
+</html>
